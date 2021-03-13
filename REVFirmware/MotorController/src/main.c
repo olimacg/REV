@@ -22,7 +22,7 @@
  * @return none
  *
  */
-// Github Test Comment
+// Github Test Comment 1
 int main(void)
 {
       for(volatile int i = 0; i<1000000; i++);
