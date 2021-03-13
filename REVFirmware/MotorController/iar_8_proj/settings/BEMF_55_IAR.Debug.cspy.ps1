@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\settings\BEMF_55_IAR.Debug.general.xcl" --backend -f "C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\settings\BEMF_55_IAR.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\REVFirmware\iar_8_proj\settings\BEMF_55_IAR.Debug.general.xcl" --backend -f "D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\REVFirmware\iar_8_proj\settings\BEMF_55_IAR.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\settings\BEMF_55_IAR.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\settings\BEMF_55_IAR.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\REVFirmware\iar_8_proj\settings\BEMF_55_IAR.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\REVFirmware\iar_8_proj\settings\BEMF_55_IAR.Debug.driver.xcl" 
 }

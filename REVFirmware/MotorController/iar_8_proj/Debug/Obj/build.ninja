@@ -1,4 +1,4 @@
-#Generating source browse information for project BEMF_55_IAR
+#Generating source browse information for project REVFirmware
 
 
 #Abbreviations
@@ -20,9 +20,6 @@ rule browsedata
 
 
 #Build steps
-build hs_functions.pbi : index hs_functions.xcl
-build hs_peripheral_init.pbi : index hs_peripheral_init.xcl
-build hs_state_machine.pbi : index hs_state_machine.xcl
 build beep_notes.pbi : index beep_notes.xcl
 build bldc_common.pbi : index bldc_common.xcl
 build diag_tunes.pbi : index diag_tunes.xcl
@@ -44,16 +41,18 @@ build isr_TimerA.pbi : index isr_TimerA.xcl
 build isr_TimerB.pbi : index isr_TimerB.xcl
 build isr_TimerC.pbi : index isr_TimerC.xcl
 build isr_TimerD.pbi : index isr_TimerD.xcl
+build hs_functions.pbi : index hs_functions.xcl
+build hs_peripheral_init.pbi : index hs_peripheral_init.xcl
 build pwm_driver_func.pbi : index pwm_driver_func.xcl
 build ssp_func.pbi : index ssp_func.xcl
 build main.pbi : index main.xcl
-build BEMF_55_IAR_part0.pbi : link hs_functions.pbi hs_peripheral_init.pbi hs_state_machine.pbi beep_notes.pbi bldc_common.pbi
-build BEMF_55_IAR_part1.pbi : link diag_tunes.pbi fix16.pbi init.pbi pid.pbi SineWaveLUT.pbi
-build BEMF_55_IAR_part2.pbi : link uart.pbi pac5xxx_driver_adc.pbi pac5xxx_driver_gpio.pbi pac5xxx_driver_socbridge.pbi pac5xxx_driver_system.pbi
-build BEMF_55_IAR_part3.pbi : link pac5xxx_driver_tile_socbridge.pbi pac5xxx_driver_timer.pbi pac5xxx_driver_uart.pbi isr_adc.pbi isr_Stubs.pbi
-build BEMF_55_IAR_part4.pbi : link isr_TimerA.pbi isr_TimerB.pbi isr_TimerC.pbi isr_TimerD.pbi pwm_driver_func.pbi
-build BEMF_55_IAR_part5.pbi : link ssp_func.pbi main.pbi
-build BEMF_55_IAR.pbd : link BEMF_55_IAR_part0.pbi BEMF_55_IAR_part1.pbi BEMF_55_IAR_part2.pbi BEMF_55_IAR_part3.pbi BEMF_55_IAR_part4.pbi BEMF_55_IAR_part5.pbi
-build BEMF_55_IAR.pbw : browsedata BEMF_55_IAR.pbd
+build REVFirmware_part0.pbi : link beep_notes.pbi bldc_common.pbi diag_tunes.pbi fix16.pbi init.pbi
+build REVFirmware_part1.pbi : link pid.pbi SineWaveLUT.pbi uart.pbi pac5xxx_driver_adc.pbi pac5xxx_driver_gpio.pbi
+build REVFirmware_part2.pbi : link pac5xxx_driver_socbridge.pbi pac5xxx_driver_system.pbi pac5xxx_driver_tile_socbridge.pbi pac5xxx_driver_timer.pbi pac5xxx_driver_uart.pbi
+build REVFirmware_part3.pbi : link isr_adc.pbi isr_Stubs.pbi isr_TimerA.pbi isr_TimerB.pbi isr_TimerC.pbi
+build REVFirmware_part4.pbi : link isr_TimerD.pbi hs_functions.pbi hs_peripheral_init.pbi pwm_driver_func.pbi ssp_func.pbi
+build REVFirmware_part5.pbi : link main.pbi
+build REVFirmware.pbd : link REVFirmware_part0.pbi REVFirmware_part1.pbi REVFirmware_part2.pbi REVFirmware_part3.pbi REVFirmware_part4.pbi REVFirmware_part5.pbi
+build REVFirmware.pbw : browsedata REVFirmware.pbd
 
 

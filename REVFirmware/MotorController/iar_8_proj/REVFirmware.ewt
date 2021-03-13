@@ -2840,30 +2840,6 @@
         </settings>
     </configuration>
     <group>
-        <name>1_FirstStep</name>
-        <file>
-            <name>$PROJ_DIR$\..\src\app_select.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\src\bldc_hw_select.h</name>
-        </file>
-    </group>
-    <group>
-        <name>app_specific</name>
-        <group>
-            <name>hs_HallSensor</name>
-            <file>
-                <name>$PROJ_DIR$\..\src\hs_functions.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\src\hs_peripheral_init.c</name>
-            </file>
-            <file>
-                <name>$PROJ_DIR$\..\src\hs_state_machine.c</name>
-            </file>
-        </group>
-    </group>
-    <group>
         <name>bldc_common</name>
         <file>
             <name>$PROJ_DIR$\..\src\beep_notes.c</name>
@@ -3060,6 +3036,12 @@
     </group>
     <group>
         <name>src</name>
+        <file>
+            <name>$PROJ_DIR$\..\src\hs_functions.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\hs_peripheral_init.c</name>
+        </file>
         <file>
             <name>$PROJ_DIR$\..\pac55xx_sdk\src\pwm_driver_func.c</name>
         </file>

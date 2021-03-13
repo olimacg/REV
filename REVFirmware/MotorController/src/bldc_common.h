@@ -24,8 +24,29 @@
 #define	EXTERN	extern	volatile
 #endif
 
-#include "app_select.h"
-#include "bldc_hw_select.h"
+#define         HALL_SENSOR
+#ifdef 		HALL_SENSOR
+#define		HALL_SENSOR_APP
+#endif
+
+#define PAC5532EVK1
+#ifdef	PAC5532EVK1
+#define	PAC5532
+#define	CAFE_ARCH2
+#define	ADCCTL_ADMUX_VIN	ADCCTL_ADMUX_AD3
+#define RSENSE_mOHMS		10
+#define VIN_SCL_RTOP		560
+#define VIN_SCL_RBOT		10
+#define	HALL_SENSOR_PD012	1
+#define	HALL_SENSOR_PC456	0
+#define	HALL_SENSOR_PD456	0
+#define	HALL_SENSOR_PE456	0
+#define SIGSET_DEF			0x0C
+#define HP_IOCP_AMPS		31					//Desired OCP Current in Amps
+#define LP_IOCP_AMPS		31					//Desired OCP Current in Amps
+#endif
+
+
 
 #include "pac5xxx.h"
 #include "pac5xxx_tile_driver_manager.h"

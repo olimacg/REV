@@ -1,52 +1,50 @@
 isr_Stubs.pbi: \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\src\isr_Stubs.c \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\src/bldc_common.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\src/app_select.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\src/bldc_hw_select.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral\pac5xxx.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\cmsis_core\core_cm4.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\src\isr_Stubs.c \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\src/bldc_common.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral\pac5xxx.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\cmsis_core\core_cm4.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdint.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ycheck.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\yvals.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Defaults.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Config_Normal.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\cmsis_core\core_cmInstr.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\cmsis_core\core_cmInstr.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\cmsis_iar.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c/iccarm_builtin.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\cmsis_core\core_cmFunc.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\cmsis_core\core_cm4_simd.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_adc.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_can.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_crc.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_gpio.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_i2c.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_memory.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_rtc.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_scc.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_timers.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_gp_timers.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_uart.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_ssp.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_wwdt.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral\pac5xxx_tile_driver_manager.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral\pac5xxx_tile_power_manager.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral\pac5xxx_tile_signal_manager.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral\pac5xxx_tile_system_manager.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_adc.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\driver/pac5xxx_driver_config.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_timer.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_socbridge.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\peripheral\pac5XXX.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\driver/pac5xxx_driver_gpio.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_tile.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_system.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_memory.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_uart.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\src/uart.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\src/fix16.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\src/version.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\src/pid.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\src/motordef.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\src/state_machine.h \
-  C:\Users\olima\OneDrive\Desktop\REVFirmware\src/rc_def.h
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\cmsis_core\core_cmFunc.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\cmsis_core\core_cm4_simd.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_adc.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_can.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_crc.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_gpio.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_i2c.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_memory.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_rtc.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_scc.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_timers.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_gp_timers.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_uart.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_ssp.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_wwdt.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral\pac5xxx_tile_driver_manager.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral\pac5xxx_tile_power_manager.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral\pac5xxx_tile_signal_manager.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral\pac5xxx_tile_system_manager.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_adc.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\driver/pac5xxx_driver_config.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_timer.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_socbridge.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\peripheral\pac5XXX.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\driver/pac5xxx_driver_gpio.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_tile.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_system.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_memory.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_uart.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\src/uart.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\src/fix16.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\src/version.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\src/pid.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\src/motordef.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\src/state_machine.h \
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\src/rc_def.h

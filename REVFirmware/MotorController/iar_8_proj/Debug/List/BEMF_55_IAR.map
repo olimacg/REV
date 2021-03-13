@@ -1,46 +1,45 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.50.9.278/W32 for ARM                  13/Mar/2021  16:03:20
+# IAR ELF Linker V8.50.9.278/W32 for ARM                  13/Mar/2021  17:11:12
 # Copyright 2007-2020 IAR Systems AB.
 #
 #    Output file  =
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Exe\BEMF_55_IAR.out
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Exe\BEMF_55_IAR.out
 #    Map file     =
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\List\BEMF_55_IAR.map
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\List\BEMF_55_IAR.map
 #    Command line =
-#        -f C:\Users\olima\AppData\Local\Temp\EWE39D.tmp
-#        (C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\beep_notes.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\bldc_common.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\diag_tunes.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\fix16.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\hs_functions.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\hs_peripheral_init.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\hs_state_machine.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\init.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\isr_adc.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\isr_Stubs.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\isr_TimerA.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\isr_TimerB.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\isr_TimerC.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\isr_TimerD.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\main.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\pac5xxx_driver_adc.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\pac5xxx_driver_gpio.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\pac5xxx_driver_socbridge.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\pac5xxx_driver_system.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\pac5xxx_driver_tile_socbridge.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\pac5xxx_driver_timer.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\pac5xxx_driver_uart.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\pid.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\pwm_driver_func.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\SineWaveLUT.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\ssp_func.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\startup_pac55xx_iar.o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj\uart.o
+#        -f C:\Users\olima\AppData\Local\Temp\EW548.tmp
+#        (C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\beep_notes.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\bldc_common.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\diag_tunes.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\fix16.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\hs_functions.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\hs_peripheral_init.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\init.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\isr_adc.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\isr_Stubs.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\isr_TimerA.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\isr_TimerB.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\isr_TimerC.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\isr_TimerD.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\main.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\pac5xxx_driver_adc.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\pac5xxx_driver_gpio.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\pac5xxx_driver_socbridge.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\pac5xxx_driver_system.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\pac5xxx_driver_tile_socbridge.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\pac5xxx_driver_timer.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\pac5xxx_driver_uart.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\pid.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\pwm_driver_func.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\SineWaveLUT.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\ssp_func.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\startup_pac55xx_iar.o
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\uart.o
 #        --no_out_extension -o
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Exe\BEMF_55_IAR.out
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Exe\BEMF_55_IAR.out
 #        --map
-#        C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\List\BEMF_55_IAR.map
+#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\List\BEMF_55_IAR.map
 #        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
 #        8.4\arm\config\linker\ActiveSemi\pac55xx.icf" --semihosting --entry
 #        __iar_program_start --vfe --text_out locale)
@@ -90,7 +89,7 @@ No sections matched the following patterns:
   .intvec            ro code          0x0    0xbc  startup_pac55xx_iar.o [1]
                                    - 0xbc    0xbc
 
-"P1":                                      0x1758
+"P1":                                      0x1750
   .text              ro code         0xbc   0x3e4  ssp_func.o [1]
   Veneer             ro code        0x4a0     0x8  - Linker created -
   .text              ro code        0x4a8   0x244  hs_functions.o [1]
@@ -113,23 +112,23 @@ No sections matched the following patterns:
   .text              ro code       0x13e8    0xa8  isr_TimerA.o [1]
   .text              ro code       0x1490    0xa8  isr_TimerB.o [1]
   .text              ro code       0x1538    0xa8  isr_TimerD.o [1]
-  .text              ro code       0x15e0    0x58  main.o [1]
-  .text              ro code       0x1638    0x40  isr_Stubs.o [1]
-  .text              ro code       0x1678    0x2e  copy_init3.o [4]
-  .text              ro code       0x16a8    0x28  data_init.o [4]
-  .text              ro code       0x16d0    0x22  fpinit_M.o [3]
-  .iar.init_table    const         0x16f4    0x24  - Linker created -
-  .text              ro code       0x1718    0x1e  cmain.o [4]
-  .text              ro code       0x1736     0x4  low_level_init.o [2]
-  .text              ro code       0x173a     0x4  exit.o [2]
-  .text              ro code       0x1740     0xa  cexit.o [4]
-  .text              ro code       0x174c    0x14  exit.o [5]
-  .text              ro code       0x1760    0x1c  cstartup_M.o [4]
-  .rodata            const         0x177c    0x10  hs_functions.o [1]
-  .rodata            const         0x178c     0x0  zero_init3.o [4]
-  .rodata            const         0x178c     0x0  copy_init3.o [4]
-  Initializer bytes  const         0x178c    0x88  <for P3 s0>
-                                 - 0x1814  0x1758
+  .text              ro code       0x15e0    0x50  main.o [1]
+  .text              ro code       0x1630    0x40  isr_Stubs.o [1]
+  .text              ro code       0x1670    0x2e  copy_init3.o [4]
+  .text              ro code       0x16a0    0x28  data_init.o [4]
+  .text              ro code       0x16c8    0x22  fpinit_M.o [3]
+  .iar.init_table    const         0x16ec    0x24  - Linker created -
+  .text              ro code       0x1710    0x1e  cmain.o [4]
+  .text              ro code       0x172e     0x4  low_level_init.o [2]
+  .text              ro code       0x1732     0x4  exit.o [2]
+  .text              ro code       0x1738     0xa  cexit.o [4]
+  .text              ro code       0x1744    0x14  exit.o [5]
+  .text              ro code       0x1758    0x1c  cstartup_M.o [4]
+  .rodata            const         0x1774    0x10  hs_functions.o [1]
+  .rodata            const         0x1784     0x0  zero_init3.o [4]
+  .rodata            const         0x1784     0x0  copy_init3.o [4]
+  Initializer bytes  const         0x1784    0x88  <for P3 s0>
+                                 - 0x180c  0x1750
 
 "P3", part 1 of 3:                           0x88
   P3 s0                       0x2000'0000    0x88  <Init block>
@@ -188,7 +187,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-       0x1814     0x1'ffff  0x1'e7ec
+       0x180c     0x1'ffff  0x1'e7f4
   0x2000'014c  0x2000'014f       0x4
   0x2000'0350  0x2000'7fff    0x7cb0
 
@@ -205,7 +204,7 @@ Zero (__iar_zero_init3)
 
 Copy (__iar_copy_init3)
     1 source range, total size 0x88:
-               0x178c  0x88
+               0x1784  0x88
     1 destination range, total size 0x88:
           0x2000'0000  0x88
 
@@ -221,7 +220,7 @@ command line/config:
     -------------------------------------------------------------------
     Total:
 
-C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj: [1]
+C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj: [1]
     bldc_common.o                        144
     fix16.o                                        52       52
     hs_functions.o                       580                16
@@ -233,7 +232,7 @@ C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj: [1]
     isr_TimerC.o                         212
     isr_TimerD.o                         168
     isr_adc.o                            452        4        4
-    main.o                                88                62      254
+    main.o                                80                62      254
     pac5xxx_driver_socbridge.o           296
     pac5xxx_driver_system.o              140
     pac5xxx_driver_tile_socbridge.o      116
@@ -243,7 +242,7 @@ C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj: [1]
     ssp_func.o                           996
     startup_pac55xx_iar.o                220       14       14
     -------------------------------------------------------------------
-    Total:                             5'536       74      152      254
+    Total:                             5'528       74      152      254
 
 dl7M_tln.a: [2]
     exit.o                                 4
@@ -275,7 +274,7 @@ shb_l.a: [5]
     Gaps                                   6                 2        2
     Linker created                        24                36      512
 -----------------------------------------------------------------------
-    Grand Total:                       5'974       74      190      768
+    Grand Total:                       5'966       74      190      768
 
 
 *******************************************************************************
@@ -284,34 +283,34 @@ shb_l.a: [5]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base        0x16f4          --   Gb  - Linker created -
-.iar.init_table$$Limit       0x1718          --   Gb  - Linker created -
-?main                        0x1719         Code  Gb  cmain.o [4]
-ADC1_IRQHandler              0x163f    0x2  Code  Gb  isr_Stubs.o [1]
-ADC2_IRQHandler              0x1641    0x2  Code  Gb  isr_Stubs.o [1]
-ADC3_IRQHandler              0x1643    0x2  Code  Gb  isr_Stubs.o [1]
+.iar.init_table$$Base        0x16ec          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x1710          --   Gb  - Linker created -
+?main                        0x1711         Code  Gb  cmain.o [4]
+ADC1_IRQHandler              0x1637    0x2  Code  Gb  isr_Stubs.o [1]
+ADC2_IRQHandler              0x1639    0x2  Code  Gb  isr_Stubs.o [1]
+ADC3_IRQHandler              0x163b    0x2  Code  Gb  isr_Stubs.o [1]
 ADCSM_State             0x2000'0110    0x4  Data  Gb  main.o [1]
 ADC_Counter             0x2000'0114    0x4  Data  Gb  main.o [1]
 ADC_IRQHandler                0xcf1  0x1c4  Code  Gb  isr_adc.o [1]
-BusFault_Handler             0x1671    0x2  Code  Gb  isr_Stubs.o [1]
-CAN_IRQHandler               0x1663    0x2  Code  Gb  isr_Stubs.o [1]
-CCS_IRQHandler               0x1669    0x2  Code  Gb  isr_Stubs.o [1]
+BusFault_Handler             0x1669    0x2  Code  Gb  isr_Stubs.o [1]
+CAN_IRQHandler               0x165b    0x2  Code  Gb  isr_Stubs.o [1]
+CCS_IRQHandler               0x1661    0x2  Code  Gb  isr_Stubs.o [1]
 CSTACK$$Base            0x2000'0150          --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'0350          --   Gb  - Linker created -
-GPTimerA_IRQHandler          0x1665    0x2  Code  Gb  isr_Stubs.o [1]
-GPTimerB_IRQHandler          0x1667    0x2  Code  Gb  isr_Stubs.o [1]
+GPTimerA_IRQHandler          0x165d    0x2  Code  Gb  isr_Stubs.o [1]
+GPTimerB_IRQHandler          0x165f    0x2  Code  Gb  isr_Stubs.o [1]
 GpioA_IRQHandler              0xc41   0x2e  Code  Gb  bldc_common.o [1]
-GpioB_IRQHandler             0x164d    0x2  Code  Gb  isr_Stubs.o [1]
-GpioC_IRQHandler             0x164f    0x2  Code  Gb  isr_Stubs.o [1]
-GpioD_IRQHandler             0x1651    0x2  Code  Gb  isr_Stubs.o [1]
-GpioE_IRQHandler             0x1653    0x2  Code  Gb  isr_Stubs.o [1]
-GpioF_IRQHandler             0x1655    0x2  Code  Gb  isr_Stubs.o [1]
-GpioG_IRQHandler             0x1657    0x2  Code  Gb  isr_Stubs.o [1]
-HardFault_Handler            0x166d    0x2  Code  Gb  isr_Stubs.o [1]
-I2C_IRQHandler               0x1659    0x2  Code  Gb  isr_Stubs.o [1]
-MemCtl_IRQHandler            0x1639    0x2  Code  Gb  isr_Stubs.o [1]
-MemManageFault_Handler       0x166f    0x2  Code  Gb  isr_Stubs.o [1]
-NMI_Handler                  0x166b    0x2  Code  Gb  isr_Stubs.o [1]
+GpioB_IRQHandler             0x1645    0x2  Code  Gb  isr_Stubs.o [1]
+GpioC_IRQHandler             0x1647    0x2  Code  Gb  isr_Stubs.o [1]
+GpioD_IRQHandler             0x1649    0x2  Code  Gb  isr_Stubs.o [1]
+GpioE_IRQHandler             0x164b    0x2  Code  Gb  isr_Stubs.o [1]
+GpioF_IRQHandler             0x164d    0x2  Code  Gb  isr_Stubs.o [1]
+GpioG_IRQHandler             0x164f    0x2  Code  Gb  isr_Stubs.o [1]
+HardFault_Handler            0x1665    0x2  Code  Gb  isr_Stubs.o [1]
+I2C_IRQHandler               0x1651    0x2  Code  Gb  isr_Stubs.o [1]
+MemCtl_IRQHandler            0x1631    0x2  Code  Gb  isr_Stubs.o [1]
+MemManageFault_Handler       0x1667    0x2  Code  Gb  isr_Stubs.o [1]
+NMI_Handler                  0x1663    0x2  Code  Gb  isr_Stubs.o [1]
 NVIC_ClearPendingIRQ         0x10f1   0x14  Code  Lc  pac5xxx_driver_socbridge.o [1]
 NVIC_ClearPendingIRQ           0xd3   0x16  Code  Lc  ssp_func.o [1]
 NVIC_EnableIRQ                0x7ad   0x14  Code  Lc  hs_peripheral_init.o [1]
@@ -321,45 +320,45 @@ NVIC_EnableIRQ                 0xbd   0x16  Code  Lc  ssp_func.o [1]
 NVIC_SetPriority              0x7c1   0x24  Code  Lc  hs_peripheral_init.o [1]
 NVIC_SetPriority             0x1219   0x24  Code  Lc  pwm_driver_func.o [1]
 NVIC_SetPriority               0xe9   0x28  Code  Lc  ssp_func.o [1]
-PendSV_Handler               0x1677    0x2  Code  Gb  isr_Stubs.o [1]
-QEPA_IRQHandler              0x1645    0x2  Code  Gb  isr_Stubs.o [1]
-QEPB_IRQHandler              0x1647    0x2  Code  Gb  isr_Stubs.o [1]
-QEPC_IRQHandler              0x1649    0x2  Code  Gb  isr_Stubs.o [1]
-QEPD_IRQHandler              0x164b    0x2  Code  Gb  isr_Stubs.o [1]
-RTC_IRQHandler               0x163d    0x2  Code  Gb  isr_Stubs.o [1]
-Region$$Table$$Base          0x16f4          --   Gb  - Linker created -
-Region$$Table$$Limit         0x1718          --   Gb  - Linker created -
+PendSV_Handler               0x166f    0x2  Code  Gb  isr_Stubs.o [1]
+QEPA_IRQHandler              0x163d    0x2  Code  Gb  isr_Stubs.o [1]
+QEPB_IRQHandler              0x163f    0x2  Code  Gb  isr_Stubs.o [1]
+QEPC_IRQHandler              0x1641    0x2  Code  Gb  isr_Stubs.o [1]
+QEPD_IRQHandler              0x1643    0x2  Code  Gb  isr_Stubs.o [1]
+RTC_IRQHandler               0x1635    0x2  Code  Gb  isr_Stubs.o [1]
+Region$$Table$$Base          0x16ec          --   Gb  - Linker created -
+Region$$Table$$Limit         0x1710          --   Gb  - Linker created -
 SMS_State               0x2000'010c    0x4  Data  Gb  main.o [1]
 SPI                     0x2000'00c0    0xc  Data  Gb  main.o [1]
 SSPC_IO_Select_PE0123         0x111   0xb6  Code  Gb  ssp_func.o [1]
-SVC_Handler                  0x1675    0x2  Code  Gb  isr_Stubs.o [1]
+SVC_Handler                  0x166d    0x2  Code  Gb  isr_Stubs.o [1]
 Set_Dead_Time                 0xc6f   0x32  Code  Gb  bldc_common.o [1]
 SysTick_Handler               0xc39    0x8  Code  Gb  bldc_common.o [1]
 TimerA_IRQHandler            0x13e9   0xa8  Code  Gb  isr_TimerA.o [1]
 TimerB_IRQHandler            0x1491   0xa8  Code  Gb  isr_TimerB.o [1]
 TimerC_IRQHandler            0x1315   0xd4  Code  Gb  isr_TimerC.o [1]
 TimerD_IRQHandler            0x1539   0xa8  Code  Gb  isr_TimerD.o [1]
-USARTA_IRQHandler            0x165b    0x2  Code  Gb  isr_Stubs.o [1]
-USARTB_IRQHandler            0x165d    0x2  Code  Gb  isr_Stubs.o [1]
-USARTC_IRQHandler            0x165f    0x2  Code  Gb  isr_Stubs.o [1]
-USARTD_IRQHandler            0x1661    0x2  Code  Gb  isr_Stubs.o [1]
-UsageFault_Handler           0x1673    0x2  Code  Gb  isr_Stubs.o [1]
-Wdt_IRQHandler               0x163b    0x2  Code  Gb  isr_Stubs.o [1]
+USARTA_IRQHandler            0x1653    0x2  Code  Gb  isr_Stubs.o [1]
+USARTB_IRQHandler            0x1655    0x2  Code  Gb  isr_Stubs.o [1]
+USARTC_IRQHandler            0x1657    0x2  Code  Gb  isr_Stubs.o [1]
+USARTD_IRQHandler            0x1659    0x2  Code  Gb  isr_Stubs.o [1]
+UsageFault_Handler           0x166b    0x2  Code  Gb  isr_Stubs.o [1]
+Wdt_IRQHandler               0x1633    0x2  Code  Gb  isr_Stubs.o [1]
 __aeabi_memcpy4               0x6ed         Code  Gb  ABImemcpy.o [4]
 __aeabi_memcpy8               0x6ed         Code  Gb  ABImemcpy.o [4]
-__cmain                      0x1719         Code  Gb  cmain.o [4]
-__exit                       0x174d   0x14  Code  Gb  exit.o [5]
-__iar_copy_init3             0x1679   0x2e  Code  Gb  copy_init3.o [4]
-__iar_data_init3             0x16a9   0x28  Code  Gb  data_init.o [4]
-__iar_init_vfp               0x16d1         Code  Gb  fpinit_M.o [3]
-__iar_program_start          0x1761         Code  Gb  cstartup_M.o [4]
+__cmain                      0x1711         Code  Gb  cmain.o [4]
+__exit                       0x1745   0x14  Code  Gb  exit.o [5]
+__iar_copy_init3             0x1671   0x2e  Code  Gb  copy_init3.o [4]
+__iar_data_init3             0x16a1   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp               0x16c9         Code  Gb  fpinit_M.o [3]
+__iar_program_start          0x1759         Code  Gb  cstartup_M.o [4]
 __iar_zero_init3              0x773   0x3a  Code  Gb  zero_init3.o [4]
-__low_level_init             0x1737    0x4  Code  Gb  low_level_init.o [2]
+__low_level_init             0x172f    0x4  Code  Gb  low_level_init.o [2]
 __vector_table                  0x0         Data  Gb  startup_pac55xx_iar.o [1]
 __vector_table_0x1c            0x1c         Data  Gb  startup_pac55xx_iar.o [1]
-_call_main                   0x1725         Code  Gb  cmain.o [4]
-_exit                        0x1741         Code  Gb  cexit.o [4]
-_main                        0x172f         Code  Gb  cmain.o [4]
+_call_main                   0x171d         Code  Gb  cmain.o [4]
+_exit                        0x1739         Code  Gb  cexit.o [4]
+_main                        0x1727         Code  Gb  cmain.o [4]
 accelerate                    0x623   0x4c  Code  Gb  hs_functions.o [1]
 app_pwm_period          0x2000'00ec    0x4  Data  Gb  main.o [1]
 app_status              0x2000'00fc    0x4  Data  Gb  main.o [1]
@@ -377,7 +376,7 @@ device_select_init            0xf19    0xa  Code  Gb  init.o [1]
 disable_motor           0x2000'00d4    0x4  Data  Gb  main.o [1]
 dt_leading_ticks        0x2000'00f4    0x4  Data  Gb  main.o [1]
 dt_trailing_ticks       0x2000'00f8    0x4  Data  Gb  main.o [1]
-exit                         0x173b    0x4  Code  Gb  exit.o [2]
+exit                         0x1733    0x4  Code  Gb  exit.o [2]
 fix16_add               0x2000'0085    0x4  Code  Lc  pid.o [1]
 fix16_mul_new_16_16     0x2000'0001   0x34  Code  Gb  fix16.o [1]
 fix16_sub               0x2000'0081    0x4  Code  Lc  isr_adc.o [1]
@@ -386,7 +385,7 @@ hp_over_current_limit   0x2000'0100    0x4  Data  Gb  main.o [1]
 iq_pid                  0x2000'0088   0x20  Data  Gb  main.o [1]
 iq_ref                  0x2000'0144    0x4  Data  Gb  main.o [1]
 lp_over_current_limit   0x2000'0148    0x2  Data  Gb  main.o [1]
-main                         0x15e1   0x58  Code  Gb  main.o [1]
+main                         0x15e1   0x50  Code  Gb  main.o [1]
 millisecond             0x2000'0104    0x4  Data  Gb  main.o [1]
 module_enable_bits      0x2000'013c    0x4  Data  Gb  main.o [1]
 motor_dir               0x2000'00cc    0x4  Data  Gb  main.o [1]
@@ -436,13 +435,13 @@ tmp_enable_current_pi   0x2000'0128    0x4  Data  Gb  main.o [1]
 tmp_pi_debug_index      0x2000'0138    0x4  Data  Gb  main.o [1]
 
 
-[1] = C:\Users\olima\OneDrive\Desktop\REVFirmware\iar_8_proj\Debug\Obj
+[1] = C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj
 [2] = dl7M_tln.a
 [3] = m7M_tls.a
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-  5'974 bytes of readonly  code memory
+  5'966 bytes of readonly  code memory
      74 bytes of readwrite code memory
     190 bytes of readonly  data memory
     768 bytes of readwrite data memory

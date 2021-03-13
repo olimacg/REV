@@ -22,7 +22,7 @@
  * @return none
  *
  */
-// DIS IS DA ONE
+// Github Test Comment
 int main(void)
 {
       for(volatile int i = 0; i<1000000; i++);
@@ -34,21 +34,11 @@ int main(void)
 	__enable_irq();
 
 	
-        
-        
         ssp_init(SSPC, SSP_MS_SLAVE);
        
-        
-        
-       
-       
-
-PAC55XX_GPIOC->MODE.P4 = IO_PUSH_PULL_OUTPUT;
-configure_timer_b_compare_mode();
-        //int test1; 
-        //uint32_t test2;
-        
-        
+        PAC55XX_GPIOC->MODE.P4 = IO_PUSH_PULL_OUTPUT;
+        configure_timer_b_compare_mode();
+  
     
 	while(1)
 		{
@@ -56,7 +46,7 @@ configure_timer_b_compare_mode();
                 
                   
 		//while (!millisecond);
-		millisecond = 0;
+		//millisecond = 0;
                 
 		
                 

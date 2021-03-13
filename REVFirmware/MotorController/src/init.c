@@ -17,53 +17,11 @@
 #define INCLUDE_EXTERNS
 #include "bldc_common.h"
 
-//OLD MAIN
-
-//app_init();
-//UART_init();
-//adc_init();
-//pi_init();
-
-//Differential_Amplifier_Calibrate();
-//while (ADCSM_State != ADCSM_Idle);
-
-/*      
-#if AUTO_START
-	SMS_Counter = 25;
-	SMS_State = SMS_Auto_On_Wait;
-#endif
-          
-    */   
-
-/*
-        PAC55XX_GPIOC->MODE.P5 = IO_PUSH_PULL_OUTPUT;
-        PAC55XX_GPIOC->OUTMASK.P5 = 0;
-        PAC55XX_GPIOC->DOCLEAR.P5 = 1;
-        PAC55XX_GPIOC->DOSET.P5 = 1;
-        PAC55XX_SCC->PCMUXSEL.P5;
-*/
-
-//check_adc();
-		//state_machine();
-                /*
-                if( ssp_available(SSPC) ){
-                  SPI.DATA_RX.w = (uint32_t)ssp_read_one(SSPC);
-                  //for(volatile int i = 0; i < 2*SPI.DATA_RX.w; i++){
-                    //PAC55XX_GPIOC->OUT.P5 ^= 1;
-                    //for(volatile int i = 0; i<500000; i++);
-                  //}
-                  ssp_write_one(SSPC, SPI.DATA_RX.w );
-               
-                  PAC55XX_TIMERB->CCTR4.CTR = (uint32_t)( PAC55XX_TIMERB->PRD.w * (SPI.DATA_RX.w & 0x0000001F )/32);
-                  //for(volatile int i = 0; i<1000000; i++);
-                }*/
 
 void app_init(void)
 {
 	last_sample_stored = 0;						// Last good commutation state sample store
-
-	//hp_over_current_limit = HP_OCP_DEF;
-	//lp_over_current_limit = LP_OCP_DEF;
+/*
 
 	sample_delay = SAMPLE_DELAY_DEF;
 	PAC55XX_TIMER_SEL->CCTR2.CTR = sample_delay;
@@ -151,7 +109,7 @@ void app_init(void)
 
 	
 	false_speed_ticks = HertzToTicks((FALSE_SPEED_HZ), (TIMER_D_FREQ_F16 >> timer_d_div)) >> 16;
-
+*/
 }
 
 /**
