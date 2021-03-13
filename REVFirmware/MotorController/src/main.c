@@ -1,40 +1,29 @@
 /****************************************************************************
- * @file     main.c
- * @brief    Firmware for PAC BLDC controller BEMF sensorless motor
- * @date     13 February 2015
- *
- * @note
- * Copyright (C) 2017-2019, Qorvo, Inc.
- *
- * THIS SOFTWARE IS SUBJECT TO A SOURCE CODE LICENSE AGREEMENT WHICH PROVIDES,
- * AMONG OTHER THINGS:  (i) THAT IT CAN BE USED ONLY TO ADAPT THE LICENSEE'S
- * APPLICATION TO PAC PROCESSORS SUPPLIED BY QORVO, INC.;
- * (ii) THAT  IT IS PROVIDED "AS IS" WITHOUT WARRANTY;  (iii) THAT
- * QORVO, INC. IS NOT LIABLE FOR ANY INDIRECT DAMAGES OR FOR DIRECT
- * DAMAGES EXCEEDING US$1,500;  AND (iv) THAT IT CAN BE DISCLOSED TO AND USED
- * ONLY BY CERTAIN AUTHORIZED PERSONS.
- ******************************************************************************/
+*
+*     Main.c file 
+*
+******************************************************************************/
 #include "bldc_common.h"
 
-/**
- * @brief  Main program that performs PAC configuration and handles real time task management
- *
- * @return none
- *
- */
+
 // Github Test Comment 1
 int main(void)
 {
+      // DO NOT REMOVE: Manually inserts deadtime before execution of all code
+      // to allow debugger time to reflash a possibly bricked device
       for(volatile int i = 0; i<1000000; i++);
+      
 	__disable_irq();
+        //Initializations
+        
 	peripheral_init();
 	device_select_init();
 	cafe_init();
-	
+	ssp_init(SSPC, SSP_MS_SLAVE);
 	__enable_irq();
 
 	
-        ssp_init(SSPC, SSP_MS_SLAVE);
+        
        
         PAC55XX_GPIOC->MODE.P4 = IO_PUSH_PULL_OUTPUT;
         configure_timer_b_compare_mode();

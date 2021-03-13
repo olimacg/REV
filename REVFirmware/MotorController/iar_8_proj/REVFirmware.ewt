@@ -2862,9 +2862,6 @@
         <file>
             <name>$PROJ_DIR$\..\src\SineWaveLUT.c</name>
         </file>
-        <file>
-            <name>$PROJ_DIR$\..\src\uart.c</name>
-        </file>
     </group>
     <group>
         <name>cmsis</name>

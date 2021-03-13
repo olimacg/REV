@@ -27,7 +27,6 @@ build fix16.pbi : index fix16.xcl
 build init.pbi : index init.xcl
 build pid.pbi : index pid.xcl
 build SineWaveLUT.pbi : index SineWaveLUT.xcl
-build uart.pbi : index uart.xcl
 build pac5xxx_driver_adc.pbi : index pac5xxx_driver_adc.xcl
 build pac5xxx_driver_gpio.pbi : index pac5xxx_driver_gpio.xcl
 build pac5xxx_driver_socbridge.pbi : index pac5xxx_driver_socbridge.xcl
@@ -47,12 +46,11 @@ build pwm_driver_func.pbi : index pwm_driver_func.xcl
 build ssp_func.pbi : index ssp_func.xcl
 build main.pbi : index main.xcl
 build REVFirmware_part0.pbi : link beep_notes.pbi bldc_common.pbi diag_tunes.pbi fix16.pbi init.pbi
-build REVFirmware_part1.pbi : link pid.pbi SineWaveLUT.pbi uart.pbi pac5xxx_driver_adc.pbi pac5xxx_driver_gpio.pbi
-build REVFirmware_part2.pbi : link pac5xxx_driver_socbridge.pbi pac5xxx_driver_system.pbi pac5xxx_driver_tile_socbridge.pbi pac5xxx_driver_timer.pbi pac5xxx_driver_uart.pbi
-build REVFirmware_part3.pbi : link isr_adc.pbi isr_Stubs.pbi isr_TimerA.pbi isr_TimerB.pbi isr_TimerC.pbi
-build REVFirmware_part4.pbi : link isr_TimerD.pbi hs_functions.pbi hs_peripheral_init.pbi pwm_driver_func.pbi ssp_func.pbi
-build REVFirmware_part5.pbi : link main.pbi
-build REVFirmware.pbd : link REVFirmware_part0.pbi REVFirmware_part1.pbi REVFirmware_part2.pbi REVFirmware_part3.pbi REVFirmware_part4.pbi REVFirmware_part5.pbi
+build REVFirmware_part1.pbi : link pid.pbi SineWaveLUT.pbi pac5xxx_driver_adc.pbi pac5xxx_driver_gpio.pbi pac5xxx_driver_socbridge.pbi
+build REVFirmware_part2.pbi : link pac5xxx_driver_system.pbi pac5xxx_driver_tile_socbridge.pbi pac5xxx_driver_timer.pbi pac5xxx_driver_uart.pbi isr_adc.pbi
+build REVFirmware_part3.pbi : link isr_Stubs.pbi isr_TimerA.pbi isr_TimerB.pbi isr_TimerC.pbi isr_TimerD.pbi
+build REVFirmware_part4.pbi : link hs_functions.pbi hs_peripheral_init.pbi pwm_driver_func.pbi ssp_func.pbi main.pbi
+build REVFirmware.pbd : link REVFirmware_part0.pbi REVFirmware_part1.pbi REVFirmware_part2.pbi REVFirmware_part3.pbi REVFirmware_part4.pbi
 build REVFirmware.pbw : browsedata REVFirmware.pbd
 
 

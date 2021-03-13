@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.50.9.278/W32 for ARM                  13/Mar/2021  17:11:12
+# IAR ELF Linker V8.50.9.278/W32 for ARM                  13/Mar/2021  17:32:58
 # Copyright 2007-2020 IAR Systems AB.
 #
 #    Output file  =
@@ -8,7 +8,7 @@
 #    Map file     =
 #        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\List\BEMF_55_IAR.map
 #    Command line =
-#        -f C:\Users\olima\AppData\Local\Temp\EW548.tmp
+#        -f C:\Users\olima\AppData\Local\Temp\EWF3ED.tmp
 #        (C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\beep_notes.o
 #        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\bldc_common.o
 #        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\diag_tunes.o
@@ -35,7 +35,6 @@
 #        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\SineWaveLUT.o
 #        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\ssp_func.o
 #        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\startup_pac55xx_iar.o
-#        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Obj\uart.o
 #        --no_out_extension -o
 #        C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\Debug\Exe\BEMF_55_IAR.out
 #        --map

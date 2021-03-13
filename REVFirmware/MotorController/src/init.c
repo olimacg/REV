@@ -1,19 +1,8 @@
 /****************************************************************************
- * @file     init.c
- * @brief    BLDC Initialization
- * @date     13 February 2015
- *
- * @note
- * Copyright (C) 2017-2019, Qorvo, Inc.
- *
- * THIS SOFTWARE IS SUBJECT TO A SOURCE CODE LICENSE AGREEMENT WHICH PROVIDES,
- * AMONG OTHER THINGS:  (i) THAT IT CAN BE USED ONLY TO ADAPT THE LICENSEE'S
- * APPLICATION TO PAC PROCESSORS SUPPLIED BY QORVO, INC.;
- * (ii) THAT  IT IS PROVIDED "AS IS" WITHOUT WARRANTY;  (iii) THAT
- * QORVO, INC. IS NOT LIABLE FOR ANY INDIRECT DAMAGES OR FOR DIRECT
- * DAMAGES EXCEEDING US$1,500;  AND (iv) THAT IT CAN BE DISCLOSED TO AND USED
- * ONLY BY CERTAIN AUTHORIZED PERSONS.
- ******************************************************************************/
+*
+*       Initialization functions
+*
+******************************************************************************/
 #define INCLUDE_EXTERNS
 #include "bldc_common.h"
 
@@ -21,7 +10,7 @@
 void app_init(void)
 {
 	last_sample_stored = 0;						// Last good commutation state sample store
-/*
+/*      CHECK FUNCTIONALITY
 
 	sample_delay = SAMPLE_DELAY_DEF;
 	PAC55XX_TIMER_SEL->CCTR2.CTR = sample_delay;
@@ -170,45 +159,7 @@ void device_select_init(void)
  *
  */
 /*
-void UART_init(void)
-{
-	// Configure UART C (Expects 150MHz PCLK)
-	// Configure UART C (Depends on pclk input)
-    PAC55XX_SCC->CCSCTL.USCMODE = 1;                // UART mode
-    pac5xxx_uart_config_LCR2(PAC55XX_UARTC, UARTLCR_WL_BPC_8, UART_STOP_BITS_1, UART_PEN_DISABLE, UART_PARITY_FORCE_STICK_1, UART_BRKCTL_DISABLE);
-    pac5xxx_uart_config_divisor_latch2(PAC55XX_UARTC, 27);    // 115kbps = PCLK / (16 * DLR)
-	
-	PAC55XX_UARTC->FCR.FIFOEN = 1;
-	PAC55XX_UARTC->FCR.RXFIFORST = 1;
-	
-	pac5xxx_uart_rx_fifo_threshold2(PAC55XX_UARTC, UARTFCR_TL_1B);
-    pac5xxx_uart_tx_fifo_threshold2(PAC55XX_UARTC, UARTFCR_TL_1B);
-	pac5xxx_uart_int_enable_RDAI2(PAC55XX_UARTC, 1); 
-	pac5xxx_uart_int_enable_THREI2(PAC55XX_UARTC, 1);
-	pac5xxx_uart_io_config2();
-    NVIC_ClearPendingIRQ(USARTC_IRQn);	
-    NVIC_SetPriority(USARTC_IRQn,3);
-    NVIC_EnableIRQ(USARTC_IRQn);
-}*/
-/*
- *
- * Configure ADC sampling engine:
- * =============================
- *
- * 	  Mode: 		Independent AS0 Trigger
- *    Repeat: 		on
- *    Divider:		/3 (PLLCLK = 50MHz/3 = 16.66MHz)
- *    Seq time: 	15 clocks (13 convert, 1 copy, 1 state machine switch) * (1/16.66MHz) = 0.9us
- *
- *    Emux Divider:	/2 (HCLK = 50MHz/2 = 25MHz)
- *
- *    AS0 Series:	Trigger: PWMC0
- *
- *    Seq #			Signal				Time offset (conversion to AS1 trigger/period end)
- *    -----------------------------------------------------------------------------------------
- *     Seq 0: 		HBI	 				-4.0 us
- *
- */
+
 
 /*
 void adc_init(void)
@@ -354,11 +305,8 @@ void cafe_init(void)
 void motor_params_init(void){
   
   current_speed = 1;
-  
   motor_dir = 0;
-  
   acceleration_factor = 10;
-  
   motor_status = motor_disabled;
   
   

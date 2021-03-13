@@ -17,7 +17,7 @@
 #define INCLUDE_EXTERNS
 #include "bldc_common.h"
 
-#if defined SENSORLESS_APP  || defined RC_PWM_THROTTLE_APP
+
 
 const fix16_t sine_wave_3phase[360][3] =
 
@@ -381,4 +381,4 @@ const fix16_t sine_wave_3phase[360][3] =
 {0x00000000,	0x0000E419,	0x000008EF},
 {0x00000000,	0x0000E208,	0x00000477},
 {0x00000000,	0x0000DFE7,	0x00000000}};
-#endif
+

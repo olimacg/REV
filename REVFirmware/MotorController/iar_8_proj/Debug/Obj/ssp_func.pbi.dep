@@ -46,5 +46,4 @@ ssp_func.pbi: \
   C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\src/version.h \
   C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\src/pid.h \
   C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\src/motordef.h \
-  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\src/state_machine.h \
-  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\src/rc_def.h
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\iar_8_proj\..\src/state_machine.h

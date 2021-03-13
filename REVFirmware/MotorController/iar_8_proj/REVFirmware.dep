@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>843841860</fileChecksum>
+    <fileChecksum>1817934924</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
@@ -19,6 +19,7 @@
             <file>$PROJ_DIR$\Debug\Obj\SineWaveLUT.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\hs_state_machine.xcl</file>
             <file>$PROJ_DIR$\..\pac55xx_sdk\peripheral\pac5xxx_uart.h</file>
+            <file>$PROJ_DIR$\..\src\bldc_hw_select.h</file>
             <file>$PROJ_DIR$\Debug\Obj\startup_pac55xx_iar.o</file>
             <file>$PROJ_DIR$\..\src\hs_state_machine.c</file>
             <file>$PROJ_DIR$\..\src\main.c</file>
@@ -103,7 +104,6 @@
             <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
             <file>$PROJ_DIR$\Debug\Obj\SineWaveLUT.o</file>
-            <file>$PROJ_DIR$\..\src\rc_def.h</file>
             <file>$PROJ_DIR$\Debug\List\BEMF_55_IAR.map</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
@@ -170,10 +170,6 @@
             <name>$PROJ_DIR$\..\src\main.c</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 125</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 135</file>
                 </tool>
@@ -181,7 +177,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 57 46 83 90 96 87 102 101 94 79 95 105 84 66 49 54 50 59 60 55 42 43 5 51 13 33 21 34 37 36 39 72 77 45 69 78 63 85 80 41 48 47 38 44 30 31 98</file>
+                    <file> 58 47 84 91 97 88 102 101 95 80 96 105 85 67 50 55 51 60 61 56 43 44 5 52 13 34 22 35 38 37 40 73 78 46 70 79 64 86 81 42 49 48 39 45 31 32</file>
                 </tool>
             </inputs>
         </file>
@@ -189,14 +185,16 @@
             <name>$PROJ_DIR$\..\src\hs_peripheral_init.c</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 115</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 2</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 47 84 91 97 88 102 101 95 80 96 105 85 67 50 55 51 60 61 56 43 44 5 52 13 34 22 35 38 37 40 73 78 46 70 79 64 86 81 42 49 48 39 45 31 32</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\..\src\hs_functions.c</name>
@@ -229,11 +227,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 23</file>
+                    <file> 24</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 91</file>
+                    <file> 92</file>
                 </tool>
             </outputs>
         </file>
@@ -242,7 +240,7 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 14</file>
+                    <file> 15</file>
                 </tool>
             </outputs>
         </file>
@@ -255,7 +253,7 @@
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 92</file>
+                    <file> 93</file>
                 </tool>
             </outputs>
         </file>
@@ -268,7 +266,7 @@
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 89</file>
+                    <file> 90</file>
                 </tool>
             </outputs>
         </file>
@@ -277,11 +275,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 19</file>
+                    <file> 20</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 29</file>
+                    <file> 30</file>
                 </tool>
             </outputs>
         </file>
@@ -346,7 +344,7 @@
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 18</file>
+                    <file> 19</file>
                 </tool>
             </outputs>
         </file>
@@ -359,7 +357,7 @@
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 28</file>
+                    <file> 29</file>
                 </tool>
             </outputs>
         </file>
@@ -380,14 +378,16 @@
             <name>$PROJ_DIR$\..\src\pid.c</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 88</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 7</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 47 84 91 97 88 102 101 95 80 96 105 85 67 50 55 51 60 61 56 43 44 5 52 13 34 22 35 38 37 40 73 78 46 70 79 64 86 81 42 49 48 39 45 31 32</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\..\pac55xx_sdk\driver\pac5xxx_driver_gpio.c</name>
@@ -406,21 +406,23 @@
             <name>$PROJ_DIR$\..\src\bldc_common.c</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 134</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 112</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 47 84 91 97 88 102 101 95 80 96 105 85 67 50 55 51 60 61 56 43 44 5 52 13 34 22 35 38 37 40 73 78 46 70 79 64 86 81 42 49 48 39 45 31 32</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\..\pac55xx_sdk\driver\pac5xxx_driver_tile_socbridge.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 20</file>
+                    <file> 21</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -445,10 +447,6 @@
             <name>$PROJ_DIR$\..\src\init.c</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 117</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 1</file>
                 </tool>
@@ -456,7 +454,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 57 46 83 90 96 87 102 101 94 79 95 105 84 66 49 54 50 59 60 55 42 43 5 51 13 33 21 34 37 36 39 72 77 45 69 78 63 85 80 41 48 47 38 44 30 31 98</file>
+                    <file> 58 47 84 91 97 88 102 101 95 80 96 105 85 67 50 55 51 60 61 56 43 44 5 52 13 34 22 35 38 37 40 73 78 46 70 79 64 86 81 42 49 48 39 45 31 32</file>
                 </tool>
             </inputs>
         </file>
@@ -472,19 +470,27 @@
                     <file> 9</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48 91 97 88 102 101 95 47 84 80 96 105 85 67 50 55 51 60 61 56 43 44 5 52 13 34 22</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\..\src\SineWaveLUT.c</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 97</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 11</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 47 84 91 97 88 102 101 95 80 96 105 85 67 50 55 51 60 61 56 43 44 5 52 13 34 22 35 38 37 40 73 78 46 70 79 64 86 81 42 49 48 39 45 31 32</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\..\src\uart.c</name>
@@ -504,7 +510,7 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 27</file>
+                    <file> 28</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -516,14 +522,16 @@
             <name>$PROJ_DIR$\..\src\diag_tunes.c</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 93</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 108</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 47 84 91 97 88 102 101 95 80 96 105 85 67 50 55 51 60 61 56 43 44 5 52 13 34 22 35 38 37 40 73 78 46 70 79 64 86 81 42 49 48 39 45 31 32</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\BEMF_55_IAR.out</name>
@@ -536,10 +544,14 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 137 113 134 93 104 128 115 117 129 130 123 0 6 3 125 132 107 116 118 20 27 19 88 122 97 23 14 119 111 114 136 100</file>
+                    <file> 137 113 134 94 104 128 115 117 129 130 123 0 6 3 125 132 107 116 118 21 28 20 89 122 98 24 15 119 111 114 136 100</file>
                 </tool>
             </inputs>
         </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
     </configuration>
     <configuration>
         <name>Release</name>

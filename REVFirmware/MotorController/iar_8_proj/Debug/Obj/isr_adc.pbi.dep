@@ -46,5 +46,4 @@ isr_adc.pbi: \
   C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\src/version.h \
   C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\src/pid.h \
   C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\src/motordef.h \
-  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\src/state_machine.h \
-  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\src/rc_def.h
+  C:\Users\olima\OneDrive\Desktop\REV\REVFirmware\MotorController\src/state_machine.h
