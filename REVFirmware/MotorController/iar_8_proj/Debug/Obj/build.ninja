@@ -1,0 +1,59 @@
+#Generating source browse information for project BEMF_55_IAR
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build hs_functions.pbi : index hs_functions.xcl
+build hs_peripheral_init.pbi : index hs_peripheral_init.xcl
+build hs_state_machine.pbi : index hs_state_machine.xcl
+build beep_notes.pbi : index beep_notes.xcl
+build bldc_common.pbi : index bldc_common.xcl
+build diag_tunes.pbi : index diag_tunes.xcl
+build fix16.pbi : index fix16.xcl
+build init.pbi : index init.xcl
+build pid.pbi : index pid.xcl
+build SineWaveLUT.pbi : index SineWaveLUT.xcl
+build uart.pbi : index uart.xcl
+build pac5xxx_driver_adc.pbi : index pac5xxx_driver_adc.xcl
+build pac5xxx_driver_gpio.pbi : index pac5xxx_driver_gpio.xcl
+build pac5xxx_driver_socbridge.pbi : index pac5xxx_driver_socbridge.xcl
+build pac5xxx_driver_system.pbi : index pac5xxx_driver_system.xcl
+build pac5xxx_driver_tile_socbridge.pbi : index pac5xxx_driver_tile_socbridge.xcl
+build pac5xxx_driver_timer.pbi : index pac5xxx_driver_timer.xcl
+build pac5xxx_driver_uart.pbi : index pac5xxx_driver_uart.xcl
+build isr_adc.pbi : index isr_adc.xcl
+build isr_Stubs.pbi : index isr_Stubs.xcl
+build isr_TimerA.pbi : index isr_TimerA.xcl
+build isr_TimerB.pbi : index isr_TimerB.xcl
+build isr_TimerC.pbi : index isr_TimerC.xcl
+build isr_TimerD.pbi : index isr_TimerD.xcl
+build pwm_driver_func.pbi : index pwm_driver_func.xcl
+build ssp_func.pbi : index ssp_func.xcl
+build main.pbi : index main.xcl
+build BEMF_55_IAR_part0.pbi : link hs_functions.pbi hs_peripheral_init.pbi hs_state_machine.pbi beep_notes.pbi bldc_common.pbi
+build BEMF_55_IAR_part1.pbi : link diag_tunes.pbi fix16.pbi init.pbi pid.pbi SineWaveLUT.pbi
+build BEMF_55_IAR_part2.pbi : link uart.pbi pac5xxx_driver_adc.pbi pac5xxx_driver_gpio.pbi pac5xxx_driver_socbridge.pbi pac5xxx_driver_system.pbi
+build BEMF_55_IAR_part3.pbi : link pac5xxx_driver_tile_socbridge.pbi pac5xxx_driver_timer.pbi pac5xxx_driver_uart.pbi isr_adc.pbi isr_Stubs.pbi
+build BEMF_55_IAR_part4.pbi : link isr_TimerA.pbi isr_TimerB.pbi isr_TimerC.pbi isr_TimerD.pbi pwm_driver_func.pbi
+build BEMF_55_IAR_part5.pbi : link ssp_func.pbi main.pbi
+build BEMF_55_IAR.pbd : link BEMF_55_IAR_part0.pbi BEMF_55_IAR_part1.pbi BEMF_55_IAR_part2.pbi BEMF_55_IAR_part3.pbi BEMF_55_IAR_part4.pbi BEMF_55_IAR_part5.pbi
+build BEMF_55_IAR.pbw : browsedata BEMF_55_IAR.pbd
+
+

@@ -1,0 +1,52 @@
+rc_peripheral_init.pbi: \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\src\rc_peripheral_init.c \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\src/bldc_common.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\src/app_select.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\src/bldc_hw_select.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral\pac5xxx.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\cmsis_core\core_cm4.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\cmsis_core\core_cmInstr.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\cmsis_iar.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c/iccarm_builtin.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\cmsis_core\core_cmFunc.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\cmsis_core\core_cm4_simd.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_adc.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_can.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_crc.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_gpio.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_i2c.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_memory.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_rtc.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_scc.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_timers.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_gp_timers.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_uart.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_ssp.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral/pac5xxx_wwdt.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral\pac5xxx_tile_driver_manager.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral\pac5xxx_tile_power_manager.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral\pac5xxx_tile_signal_manager.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral\pac5xxx_tile_system_manager.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_adc.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\driver/pac5xxx_driver_config.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_timer.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_socbridge.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\peripheral\pac5XXX.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\driver/pac5xxx_driver_gpio.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_tile.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_system.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_memory.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\iar_8_proj\..\pac55xx_sdk\driver\pac5xxx_driver_uart.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\src/uart.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\src/fix16.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\src/version.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\src/pid.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\src/motordef.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\src/state_machine.h \
+  D:\pac55xx_BEMF_BLDC_09-10-2019_V2.2.0\PAC55xx_BEMF_BLDC_FW_SRC_V2.2.0\src/rc_def.h
