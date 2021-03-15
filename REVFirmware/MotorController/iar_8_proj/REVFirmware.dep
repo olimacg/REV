@@ -170,6 +170,10 @@
             <name>$PROJ_DIR$\..\src\main.c</name>
             <outputs>
                 <tool>
+                    <name>ICCARM</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
                     <name>BICOMP</name>
                     <file> 135</file>
                 </tool>
@@ -184,6 +188,10 @@
         <file>
             <name>$PROJ_DIR$\..\src\hs_peripheral_init.c</name>
             <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
                 <tool>
                     <name>BICOMP</name>
                     <file> 2</file>
@@ -378,6 +386,10 @@
             <name>$PROJ_DIR$\..\src\pid.c</name>
             <outputs>
                 <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
                     <name>BICOMP</name>
                     <file> 7</file>
                 </tool>
@@ -405,6 +417,10 @@
         <file>
             <name>$PROJ_DIR$\..\src\bldc_common.c</name>
             <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 134</file>
+                </tool>
                 <tool>
                     <name>BICOMP</name>
                     <file> 112</file>
@@ -447,6 +463,10 @@
             <name>$PROJ_DIR$\..\src\init.c</name>
             <outputs>
                 <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
                     <name>BICOMP</name>
                     <file> 1</file>
                 </tool>
@@ -480,6 +500,10 @@
         <file>
             <name>$PROJ_DIR$\..\src\SineWaveLUT.c</name>
             <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
                 <tool>
                     <name>BICOMP</name>
                     <file> 11</file>
@@ -522,6 +546,10 @@
             <name>$PROJ_DIR$\..\src\diag_tunes.c</name>
             <outputs>
                 <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
                     <name>BICOMP</name>
                     <file> 108</file>
                 </tool>
@@ -544,14 +572,10 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 137 113 134 94 104 128 115 117 129 130 123 0 6 3 125 132 107 116 118 21 28 20 89 122 98 24 15 119 111 114 136 100</file>
+                    <file> 137 113 134 94 104 128 115 117 129 130 123 0 6 3 125 132 107 116 118 21 28 20 89 122 98 24 15 111 114 136 100</file>
                 </tool>
             </inputs>
         </file>
-        <forcedrebuild>
-            <name>[MULTI_TOOL]</name>
-            <tool>ILINK</tool>
-        </forcedrebuild>
     </configuration>
     <configuration>
         <name>Release</name>
